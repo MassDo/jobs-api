@@ -25,7 +25,5 @@
     "xss-clean": "^0.1.1",
     "yamljs": "^0.3.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.9"
-  }
+  "devDependencies": {}
 }
