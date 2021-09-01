@@ -16,7 +16,7 @@ const jobSchema = new mongoose.Schema({
         enum:['interview', 'decline', 'pending'],
         default:'pending'
     },
-    createBy:{
+    createdBy:{
         type:mongoose.Types.ObjectId,
         ref:'User',
         required:[true, 'Please provide user']
